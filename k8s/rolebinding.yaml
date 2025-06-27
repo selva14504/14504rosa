@@ -4,9 +4,9 @@ metadata:
   name: webapp-rolebinding-14504
 subjects:
 - kind: ServiceAccount
-  name: webapp-sa
+  name: webapp-sa-14504
 roleRef:
   kind: Role
-  name: webapp-role
+  name: webapp-role-14504
   apiGroup: rbac.authorization.k8s.io
 
