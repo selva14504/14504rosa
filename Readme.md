@@ -5,7 +5,7 @@ This repo is a boilerplate template for deploying a simple Flask web app to Kube
 ## 🚀 Quickstart
 
 1. **Set the Docker image**  
-   Update `k8s/deployment.yaml` with your Docker Hub user and image.
+   Update `k8s/deployment.yaml` with your Docker Hub user and image
 
 2. **Build & push**  
    ```bash
