@@ -6,15 +6,15 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: webapp
+      app: webapp-14504
   template:
     metadata:
       labels:
-        app: webapp
+        app: webapp-14504
     spec:
       serviceAccountName: webapp-sa-14504
       containers:
-      - name: webapp
+      - name: webapp-14504
         image: selva14504/my-python-app
         ports:
         - containerPort: 5000
@@ -29,5 +29,5 @@ spec:
       volumes:
       - name: data
         persistentVolumeClaim:
-          claimName: webapp-pvc
+          claimName: webapp-pvc-14504
 
