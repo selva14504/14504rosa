@@ -12,7 +12,7 @@ spec:
       labels:
         app: webapp
     spec:
-      serviceAccountName: webapp-sa
+      serviceAccountName: webapp-sa-14504
       containers:
       - name: webapp
         image: selva14504/my-python-app
