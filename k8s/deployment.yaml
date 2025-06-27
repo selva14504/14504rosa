@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: webapp
+  name: webapp-14504
 spec:
   replicas: 1
   selector:
@@ -20,9 +20,9 @@ spec:
         - containerPort: 5000
         envFrom:
         - configMapRef:
-            name: webapp-config
+            name: webapp-config-14504
         - secretRef:
-            name: webapp-secret
+            name: webapp-secret-14504
         volumeMounts:
         - name: data
           mountPath: /data
