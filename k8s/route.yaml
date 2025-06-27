@@ -5,7 +5,7 @@ metadata:
 spec:
   to:
     kind: Service
-    name: webapp-service
+    name: webapp-service-14504
   port:
     targetPort: 5000
   tls:
